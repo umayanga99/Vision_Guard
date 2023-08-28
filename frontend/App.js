@@ -8,7 +8,7 @@ export default function App() {
   return (
    <View>
     <LogoText children="VISION GUARD"/>
-    <TextBox content="hello"/>
+    {/* <TextBox content="hello"/> */}
     {/* // <Welcome/> */}
     </View> 
   )
