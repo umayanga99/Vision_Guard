@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   bottom:{
-    alignItems:"center",
+    alignSelf:"center",
     paddingVertical:10,
     flexDirection:'row'
   },
