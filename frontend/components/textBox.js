@@ -13,12 +13,13 @@ const TextBox = ({content}) => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
   textInput: {
-    width: width * 0.9,  // Set to 90% of the screen's width, adjust as needed
+    // width: width * 0.9, 
+    width:"100%", // Set to 90% of the screen's width, adjust as needed
     padding: 12,
     flexDirection: 'column',
     justifyContent: 'center',

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-const LogoText = ({ children }) => {
+const LogoText = ({ cText,cColor }) => {
+  const textStyle=[styles.text,{color:cColor}]
   return (
-    <Text style={styles.text}>{children}</Text>
+    <Text style={textStyle}>{cText}</Text>
   );
 };
 
@@ -15,10 +16,8 @@ const styles = StyleSheet.create({
     fontSize: 36.701,
     fontStyle: 'normal',
     fontWeight: '700',
-    // React Native doesn't have a "normal" line-height, you would typically use a numeric value
-    // e.g., lineHeight: 40,
     letterSpacing: -1.101,
-  },
+  }
 });
 
 export default LogoText;
