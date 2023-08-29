@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     
     display: 'flex',  // This is the default in React Native, so it's optional
     width: 239,
+    marginTop:20,
     paddingVertical: 12,
     paddingHorizontal: 20,
     justifyContent: 'center',
