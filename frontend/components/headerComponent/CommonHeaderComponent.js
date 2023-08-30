@@ -5,7 +5,7 @@ import DPComponent from './DP';
 const CommonHeaderComponent = ({ title }) => {
   // Get today's date
   const today = new Date();
-  let topMargin=20
+  let topMargin=20 //top margin of inside of the header component
   const formattedDate = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
 
   return (
