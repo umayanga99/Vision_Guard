@@ -9,10 +9,13 @@ import CommonBottomComponent from './components/bottomComponent/CommonBottomComp
 
 export default function App() {
   return (
+    <>
+    <CommonHeaderComponent/>
     <View style={styles.appContainer}>
       {/* Add your other UI elements here */}
       <CommonBottomComponent />
     </View>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Platform } from 'react-native';
 import DPComponent from './DP';
 
-const CommonHeaderComponent = ({ title }) => {
+const CommonHeaderComponent = () => {
   // Get today's date
   const today = new Date();
   let topMargin=20 //top margin of inside of the header component
@@ -13,7 +13,7 @@ const CommonHeaderComponent = ({ title }) => {
       <View style={[styles.innerContainer,{alignItems:"center"}]}>
         <View style={styles.lefthand}>
           <Text style={[styles.herdernormal,{marginTop:topMargin}]}>{formattedDate}</Text>
-          <Text style={styles.headerText}>{title}</Text>
+          <Text style={styles.headerText}>VISION GUARD</Text>
           <View style={{flexDirection:"row", alignItems: 'center'}}>
             <View style={styles.greenDot} />  
             <Text style={styles.herdernormal}>  10 cameras running</Text>
